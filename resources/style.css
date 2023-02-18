@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .page {
   width: 100%;
-  margin: 0;
   color: hsl(220, 15%, 55%);
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
@@ -14,6 +18,10 @@
   justify-content: center;
   width: 100%;
   min-height: 100vh;
+  background-image: url("../chalenge/design/mobile-design.jpg");
+  background-size: 375px 667px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .title {
   color: hsl(218, 44%, 22%);
@@ -31,7 +39,7 @@
 /*/////////////// QR component //////////////////*/
 .qr-card {
   width: 100%;
-  max-width: 318px;
+  max-width: 320px;
   min-width: 240px;
   padding: 1em;
   margin: auto;
@@ -43,24 +51,21 @@
 .qr-card img {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 318px;
   margin: auto;
+  margin-bottom: 0.7em;
   border-radius: 10px;
-  text-align: center;
 }
 .qr-card figcaption {
-  padding: 0 1em;
+  padding: 1em;
+  padding-bottom: 1.6em;
   text-align: center;
 }
-
 .qr-card .title {
   display: block;
   font-size: 1.4rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 .qr-card p:nth-child(2) {
-  position: relative;
-  top: -0.38em;
   letter-spacing: 0.01em;
 }
