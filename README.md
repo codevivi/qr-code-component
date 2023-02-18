@@ -1,6 +1,6 @@
 # 🪧 Frontend Mentor - QR code component solution
 
-<!-- ![alt app screenshot](./src/resources/app_screenshot.png) -->
+![alt app screenshot](./resources/images/screenshot.png)
 
 ## 📋 About
 
