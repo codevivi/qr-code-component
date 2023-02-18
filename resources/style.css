@@ -1,16 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 .page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  min-height: 100vh;
   margin: 0;
   color: hsl(220, 15%, 55%);
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: Outfit, sans-serif;
+}
+.page main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
 }
 .title {
   color: hsl(218, 44%, 22%);
