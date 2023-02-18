@@ -8,7 +8,7 @@ This is my first solution to the [QR code component challenge on Frontend Mentor
 
 🌐 **Site published at**: [https://codevivi.github.io/qr-code-component](https://codevivi.github.io/qr-code-component)
 
-**Solution URL**: [Add solution URL here](https://www.frontendmentor.io/solutions/flex-box-to-center-qr-component-NOUoRiQ10E)
+**Solution URL**: [https://www.frontendmentor.io/solutions/flex-box-to-center-qr-component-NOUoRiQ10E](https://www.frontendmentor.io/solutions/flex-box-to-center-qr-component-NOUoRiQ10E)
 
 🎯 **Goals:**
 
