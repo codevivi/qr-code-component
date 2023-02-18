@@ -1,0 +1,69 @@
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: Outfit, sans-serif;
+  /* background-image: url("../chalenge/design/mobile-design.jpg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+.title {
+  color: hsl(218, 44%, 22%);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 1rem;
+  margin: 0;
+  background-color: inherit;
+  opacity: 0.6;
+  text-align: right;
+}
+/*/////////////// QR component //////////////////*/
+.qr-card {
+  width: 100%;
+  max-width: 318px;
+  padding: 1em;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.qr-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 318px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+.qr-card figcaption {
+  padding: 1.2em;
+  text-align: center;
+}
+
+.qr-card .title {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
