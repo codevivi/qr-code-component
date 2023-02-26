@@ -22,15 +22,10 @@
 .title {
   color: hsl(218, 44%, 22%);
 }
-.attribution {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 0 1rem;
-  margin: 0;
+.page-footer {
+  padding: 1rem;
   background-color: inherit;
-  opacity: 0.6;
-  text-align: right;
+  text-align: center;
 }
 /*/////////////// QR component //////////////////*/
 .qr-card {
